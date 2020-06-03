@@ -1,7 +1,9 @@
 from setuptools import setup
 
-setup(name="Distribution",
-      version="0.1",
-      description="Gaussian Distribution",
-      packages=["Distributions"],
+setup(name="gausbin_distribution",
+      version="0.2",
+      description="Gaussian and Binomial Distribution",
+      packages=["gausbin_distributions"],
+      author="Victor Oguche",
+      author_email = "victoroguche@gmail.com",
       zip_safe=False)
