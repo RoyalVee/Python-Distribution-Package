@@ -21,12 +21,18 @@ The gausbin_distribution folder contains the following:
 
 ## Installation guide
 ### Steps to install maunally 
-step 1: download the package repository
-step 2: navigate to the download folder location using Ipython command line
-step 3: when in the folder run this code `pip install .`
+  step 1: download the package repository
+  
+  step 2: navigate to the download folder location using Ipython command line
+  
+  step 3: when in the folder run this code `pip install .`
+  
 Huarry the package will be up and running now on machine.
 
 ### Steps to install the test version for TestPyPI
+  step 1: run the following in your ipython command line `pip install --index-url https://test.pypi.org/simple/gausbin_distribution`
 
+### steps to install the full version from PyPI
+  step 1: run the following in your ipython command line `pip install gausbin_distribution`
 ## Modules
 This package contains GaussianDistribution and Binomialdistribution Modules
